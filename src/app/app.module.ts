@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './pages/home/home.component';
+import { PokemonCardComponent } from './shared/components/pokemon-card-list/pokemon-card/pokemon-card.component';
+import { PokemonCardListComponent } from './shared/components/pokemon-card-list/pokemon-card-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PokemonCardComponent,
+    PokemonCardListComponent
   ],
   imports: [
     BrowserModule,

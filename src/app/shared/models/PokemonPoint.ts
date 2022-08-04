@@ -1,6 +1,4 @@
-export class PokemonPoint{
-    constructor(
-        public name: string,
-        public url: string
-    ){}
+export interface PokemonPoint{
+    name: string,
+    url: string
 }

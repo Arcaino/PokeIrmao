@@ -1,10 +1,9 @@
 import { PokemonPoint } from "./PokemonPoint";
 
-export class ResponsePageable{
-    constructor(
-        public count: number,
-        public next: string,
-        public previous: any,
-        public results: Array<PokemonPoint>
-    ){}
+export interface ResponsePageable{
+
+    count: number,
+    next: string,
+    previous: any,
+    results: Array<PokemonPoint>
 }
